@@ -1,4 +1,4 @@
-# Reverse a String
+<h1 align='center'>Reverse a String</h1> 
 
 
 ``` python
