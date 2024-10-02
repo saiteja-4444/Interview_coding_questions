@@ -39,7 +39,7 @@ print(reversed_string)  # Output: "dlroW olleH"
 ```
 
 ## Using a stack :
-```
+``` python 
 def reverse_string(s):
     stack = list(s)
     reversed_str = ""
