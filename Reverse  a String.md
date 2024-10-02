@@ -37,3 +37,15 @@ my_string = "Hello World"
 reversed_string = ''.join(reversed(my_string))
 print(reversed_string)  # Output: "dlroW olleH"
 ```
+
+## Using a stack :
+```
+def reverse_string(s):
+    stack = list(s)
+    reversed_str = ""
+    while stack:
+        reversed_str += stack.pop()
+    return reversed_str
+
+my_string = "Hello World"
+print(reverse_string(my_string))  # Output: "dlroW olleH"
