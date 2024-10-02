@@ -1,6 +1,6 @@
 <h1 align='center'>Reversing of  a String</h1> 
 
-## Using slicing:
+## Using slicing :
 
 ``` python
 string = 'hello'
